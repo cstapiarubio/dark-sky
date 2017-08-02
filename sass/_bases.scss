@@ -3,3 +3,44 @@
 	padding:0;
 	font-family: $fuente;
 }
+
+body{
+  background: url('/img/sun.png');
+  z-index:1;
+	color: whitesmoke;
+	margin-top: 0;
+	background-repeat: no-repeat;                          
+	height: 510px;       
+	width: 100%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:30% 95%;
+}
+
+.container{
+	color:transparent;
+	background-color: #B5B0AF;
+	width: 100%;
+	height: 100%;
+	margin-top: 200px;
+
+	label{
+		color: white;
+	}
+
+	#contBoton{
+		width: 100%;
+		position: relative;
+        background-color:whitesmoke;
+        min-height: 100px;
+        margin-top: 34%;
+
+        a{
+        	background-color:whitesmoke;
+        	color: grey;
+        	margin-left: 500px;
+        }
+	}
+}
