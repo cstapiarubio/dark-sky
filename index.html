@@ -4,28 +4,32 @@
 	<meta charset="UTF-8">
 	<title>Dark Sky Weather</title>
 	<script src="https://use.fontawesome.com/2c0c95ddaa.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="dest/css/todo.css">
 </head>
-<body>
+<body class="container-fluid">
 	<!--formulario petición latitud y longitud-->
-	<div class="row">
-		<form class="col s12">
-			<div class="row">
-				<div class="input-field col s6">
-					<input id="lat" type="number" class="validate">
-					<label for="">Latitud</label>
+	<div class="container">
+		<div class="row">
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field col s6">
+						<input id="lat" type="number" class="validate">
+						<label for="">Latitud</label>
+					</div>
+					<div class="input-field col s6">
+						<input id="long" type="number" class="validate">
+						<label for="">Longitud</label>
+					</div>
 				</div>
-				<div class="input-field col s6">
-					<input id="long" type="number" class="validate">
-					<label for="">Longitud</label>
+				<div class="row">
+					<div class="col s12">
+						<a id="boton" class="waves-effect waves-light btn">Predicción de la semana</a>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col s12">
-				<a id="boton" class="waves-effect waves-light btn">button</a>
-				</div>
-			</div>
-		</form>
+			</form>
+		</div>
+		<div id="contenedor"></div>
 	</div>
 	<script type="text/javascript" src="dest/js/todo.js"></script>
 </body>
